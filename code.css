@@ -1,0 +1,142 @@
+.container-fluid {
+  padding: 0;
+}
+.banner {
+  background-color: white;
+}
+.navbar {
+  background-color: steelblue;
+}
+.mar {
+  margin-top: 110px;
+}
+.marr {
+  margin-left: 100px;
+  color: black;
+}
+.course {
+  padding: 40px 0px;
+}
+.carousel-inner {
+  background-color: steelblue;
+}
+.course li {
+  padding: 0px;
+  list-style-type: none;
+  display: inline-flex;
+  margin: 10px 0px;
+}
+.course-list .fa {
+  font-size: 50px;
+  font-weight: 900;
+  padding: 10px 0px;
+  color: #03386f;
+}
+.course-list li {
+  width: 200px;
+  padding: 30px 40px;
+  margin: 15px;
+  background-color: steelblue;
+}
+.course-list h3 {
+  font-weight: 400;
+  color: black;
+}
+.course-list p {
+  font-weight: 50px;
+  font-size: 20px;
+  color: black;
+}
+.course-list a {
+  color: #03386f;
+  font-size: 10px;
+}
+.bg {
+  background-color: steelblue;
+}
+.Project {
+  padding: 40px 70px;
+}
+.companies {
+  background-color: steelblue;
+  padding: 40px 0px;
+}
+.companies h2 {
+  margin: 0px 0px 40px 0px;
+}
+.company-list {
+  list-style-type: none;
+  padding: 0;
+  display: inline-flex;
+}
+.company-list li {
+  margin: 0px 20px;
+}
+.footer {
+  background-color: steelblue;
+}
+.courses {
+  list-style-type: none;
+  line-height: 2.5;
+}
+.courses li a {
+  text-decoration: none;
+}
+.courses li a:hover {
+  text-decoration: underline;
+}
+.social-media {
+  display: inline-flex;
+  list-style-type: none;
+  padding: 0;
+  line-height: 2.5;
+}
+.support {
+  text-decoration: none;
+  line-height: 2.5;
+}
+.social-media li:not(:first-child) {
+  margin: 0px 10px;
+}
+.social-media li {
+  margin-right: 10px;
+}
+@media only screen and (max-width: 1024px) {
+  .banner {
+    padding: 10px;
+  }
+  .banner img {
+    display: none;
+  }
+  .banner-content {
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+  .course-list li {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .course-list {
+    display: inline-block;
+  }
+  .project {
+    padding: 40px 10px;
+  }
+  .company-list {
+    display: inline-block;
+  }
+  .company-list li {
+    width: 100%;
+    margin: 10px 0px;
+  }
+}
+.par {
+  color: black;
+}
+.text {
+  color: black;
+}
+.medi {
+  font-size: 40px;
+  color: black;
+}
